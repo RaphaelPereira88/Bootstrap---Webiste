@@ -1,2 +1,2 @@
 # Bootstrap---Webiste
- this is a website created to practice Bootstrap
+ This is a website created to practice Bootstrap
