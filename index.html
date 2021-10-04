@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link   href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <!--CSS -->
+    <link rel ="stylesheet" href ="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <section id="cover">
+      <div id="cover-caption">
+        <div class="container">
+          <div id ="col" class=" col-sm-10 col-sm-offset-1">
+            <h1 class= "display-3">Welcome to Bootstrap 5</h1>
+            <p>
+              Just like the old Bootstrap, Lorem ipsum dolor sit amet consectetur adipisicing 
+              elit. At sunt, temporibus error deserunt vero unde voluptate id eaque totam magni
+              quo possimus inventore! Commodi rerum saepe alias mollitia ipsa voluptas. 
+            </p>
+            <form id = "form"action="" class=" form-inline col-center  ">
+              <div class="form-group ">
+                <label class="sr-only">Name : </label>
+                <input type="text" class=" form-control form-control-lg " placeholder="Raf">
+              </div>
+              <div class="form-group">
+                <label class="sr-only">Email : </label>
+                <input type="text" class=" form-control  form-control-lg " placeholder="Raf@hotmail.fr">
+              </div>
+              <button type ="submit"class="btn btn-success btn-lg">Okay, Go!</button>
+            </form>
+
+            <br>
+
+            <a href="#nav-main" class="btn btn-secondary-outline btn-sm" role ="button">&darr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-full" style="background-color: #26405a" id = "nav-main" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Your Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="carousel">
+      <div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item  active">
+            <img src="img/woman-camera.jpg" class="d-block w-100" alt="ccc">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Photography</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <img src="img/lady-guitar.jpg" class="d-block w-100" alt="aaaaa">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Lady playing guitare</h5>
+              <p>Good way to relase your thoughts and have fun</p>
+            </div>
+          </div>
+
+          <div class="carousel-item ">
+            <img src="img/hearthand.jpg" class="d-block w-100" alt="bbbb">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Love is everywhere</h5>
+              <p>Open up your heart to the people around you </p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-home" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-home" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="what-we-do">
+      <div class="section-content">
+        <div class="container">
+
+          <h2 class ="">What We Do</h2>
+            <p class= "lead">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur quia numquam at atque 
+              illo quae tenetur adipisci qui corporis natus?
+            </p>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="card-group">
+
+                <div class="card">
+                  <div class=".d-block p-2">
+                    <h4 class="card-title">Strategie &amp; PLanning</h4>
+                    <h6 class="card-subtitle">Support card Subtitle</h6>
+                  </div>
+                    <img src="img/chalkboard.jpg" class="card-img-top alt="chalkboard">
+                  <div class="card-body">
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a natural 
+                      lead-in to additional content. This content is a little bit 
+                      longer.
+                    </p>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal"data-bs-target="#myModal">Learn more</button>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class=".d-block p-2">
+                    <h4 class="card-title">Programming</h4>
+                    <h6 class="card-subtitle">Support card Subtitle</h6>
+                  </div>
+                    <img src="img/working.jpg" class="card-img-top  alt="working">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Nisi, 
+                    </p>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal"data-bs-target="#myModal">Learn more</button>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <div class=".d-block p-2">
+                    <h4 class="card-title">Creative &amp; Design</h4>
+                    <h6 class="card-subtitle">Support card Subtitle</h6>
+                  </div>
+                    <img src="img/programming.jpg" class="card-img-top alt="macbook-2">
+                  <div class="card-body">
+                    <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                      Quos recusandae fuga, omnis veniam nihil accusantium tenetur dicta 
+                      aperiam eius vitae eaque dolorem at nobis delectus.
+                    </p>
+                    <button type="button" class="btn btn-outline-success" data-toggle="modal"data-bs-target="#myModal">Learn more</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="section-content">
+        <div class="container">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3>About me</h3>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maiores ipsam sed voluptas enim.
+                Aliquid accusantium sit exercitationem odit cupiditate!
+              </p>
+              <p >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quae illo eos, 
+                natus ratione quaerat hic dicta accusamus fugiat incidunt voluptatem praesentium
+                ssimilique deserunt consectetur at atque modi obcaecati. Ipsum.
+              </p>
+              <h5>
+                Follow me on the web
+              </h5>
+              <a href="" class="btn btn-sm btn-outline-secondary">Facebook</a>
+              <a href="" class="btn btn-sm btn-outline-secondary">Twitter</a>
+              <a href="" class="btn btn-sm btn-outline-secondary">Youtube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  </body>
+</html>

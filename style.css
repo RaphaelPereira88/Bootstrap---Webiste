@@ -1,0 +1,35 @@
+/*style.css*/
+
+html,
+body {
+    height:100%;
+}
+
+/*cover*/
+
+
+
+#cover {
+    background:#222 url('img/stars.jpg')center center no-repeat;
+    background-size: cover;
+    color:white;
+    height:100%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+}
+
+#cover-caption{
+    width:100%;
+}
+
+.section-content{
+    padding: 5rem 0;
+}
+
+#about{
+    background: url('img/girlincar.jpg')center center no-repeat ;
+    background-size:cover;
+}
+
+
